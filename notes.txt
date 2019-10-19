@@ -1,0 +1,16 @@
+GIT FUNDAMENTALS
+
+git push --set-upstream origin namegoeshere
+# assigns upstream to branch as opposed to master
+
+git clone URLgoeshere localdestinationgoeshere
+
+git remote -v
+# states what URLs you can push to (starts with origin)
+
+git remote add upstream MAIN(beforefork)URLHERE
+
+# but then you could push to the main branch instead of your fork which could be bad (might not have permission)
+# so you'll want to switch that off
+
+git remote set-url --push URLGOESHERE
