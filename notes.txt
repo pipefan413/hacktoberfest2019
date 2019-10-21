@@ -63,7 +63,7 @@ BUT IS EVERYTHING FUCKED NOW?
 PULL THE OTHER ONE
 
 	# This is done on the Github site interface rather than through command line.
-	# Navigate to the repo, then the "Pull requests" tab, and hit "New pull request".
+	# Navigate to the repo, then the "Pull requests" tab, and hit "Compare & pull request".
 
 
 ...
