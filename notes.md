@@ -27,6 +27,7 @@ Make changes as needed (e.g. vim notes.txt or whatever) then...
 `git add -A`
 
 ... or...
+
 `git add .`
 
 ... to add all changes to staging.
@@ -39,12 +40,15 @@ This just checks that everything is staged and ready to go, acknowledging your c
 ## PUSH THE BUTTON
 
 `git commit -m "[commit-message]"`
+
 This commits staged changes with a note to describe the changes (e.g. "Updated readme" or whatever).
 
 `git status`
+
 Another quick check, as with staging, then finally...
 
 `git push --set-upstream origin [branch-name]`
+
 ... which assigns your upstream to branch as opposed to master, then pushes changes to the branch.
 
 
@@ -81,6 +85,7 @@ Navigate to the repo, then the "Pull requests" tab, and hit "Compare & pull requ
 ## FORKING HELL MATE
 
 `git remote -v`
+
 states what URLs you can push to (starts with origin)
 
 `git remote add upstream MAIN(beforefork)URLHERE`
